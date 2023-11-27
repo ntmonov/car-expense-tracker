@@ -1,0 +1,46 @@
+.cars-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    border: 1px solid green;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+img {
+    width: 200px;
+}
+
+.brand {
+    margin-right: 10px;
+}
+
+.buttons {
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 8px 12px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+.edit {
+    background-color: yellow;
+}
+
+.expenses {
+    background-color: green;
+}
